@@ -1,0 +1,38 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 5vh;
+}
+
+.advertise {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+/* justify-content是指flex布局中，内部各个view在主轴的位置
+而justify-itmes是说，内部有多个view时相互之间如何对齐 
+同理，align-content和align-items对交叉轴进行对应的设定*/
+
+.now {
+  margin-top: 2vh;
+}
+
+.mainbtn {
+  margin-top: 10vh;
+}

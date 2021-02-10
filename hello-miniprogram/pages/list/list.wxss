@@ -1,0 +1,28 @@
+/* pages/list/list.wxss */
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+input {
+  text-align: center;
+  margin-bottom: 1vh;
+  margin-top: 5vh;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 80vw;
+  box-shadow: 2px 2px 5px;
+}
+
+.button-add {
+  width: 80vw;
+}
+
+.button-delete {
+  width: 1rem;
+  padding: 0 5px 0 5px;
+  box-shadow: 1px 1px 1px inset;
+  border-radius: 50%;
+  border: 1px solid; 
+}

@@ -1,0 +1,12 @@
+<!--pages/list/list.wxml-->
+<view class="container">
+  <view class="book-list">
+    <text wx:for="{{bookList}}" wx:key="index" bind:tap="removeBook" data-bookname="{{item}}">
+      <text class="button-delete">-</text> {{index + 1}}. {{item}}
+    </text>
+  </view>
+   <!-- inputHandler（输入内容改变时触发） -->
+   <input placeholder="输入新的书名"        bind:input="inputHandler"/>
+   <button class="button-add" bind:tap="add">新增</button>
+</view>
+
